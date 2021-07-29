@@ -1,7 +1,6 @@
 public class Logger {
 
     public enum Level {NONE, ERROR, WARNING, INFO, DEBUG}
-
     private Level level = Level.NONE;
 
     public void setLevel(Level l) {
