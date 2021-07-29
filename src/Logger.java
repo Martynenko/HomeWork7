@@ -37,7 +37,6 @@ public class Logger {
         return m;
     }
 
-
     public void format(String type, String m) {
 
     }
