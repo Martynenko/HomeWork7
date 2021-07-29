@@ -29,7 +29,6 @@ public class Logger {
         return m;
     }
 
-
     public String error(String m) {
         if (Level.ERROR.compareTo(level) <= 0) {
             format("ERROR", m);
